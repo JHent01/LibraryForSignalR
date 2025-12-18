@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MassegeFromModul.cs" />
+    <Compile Include="MessageClousedModul.cs" />
     <Compile Include="PointsForZoom.cs" />
     <Compile Include="OpenZoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

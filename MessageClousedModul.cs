@@ -9,12 +9,14 @@ namespace LibraryForSignalR
     public class MessageClousedModul
     {
         public string ModulName { get; set; }
+        public string IDprocces { get; set; }
         public string Message { get; set; }
-        public MessageClousedModul(string ModulName, string Message  )
+        public MessageClousedModul(string ModulName, string Message, string iDprocces  )
         {
             this.ModulName = ModulName;
 
             this.Message = Message;
+            IDprocces = iDprocces;
         }
     }
 }

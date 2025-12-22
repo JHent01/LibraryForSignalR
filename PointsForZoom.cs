@@ -8,6 +8,7 @@ namespace LibraryForSignalR
 {
     public class PointsForZoom
     {
+        
         public double xTL { get; set; }
         public double yTL { get; set; }   
         public double xBR { get; set; }
@@ -18,6 +19,7 @@ namespace LibraryForSignalR
             this.yTL = yTL;
             this.xBR = xBR;
             this.yBR = yBR;
+            
         }
     }
 }

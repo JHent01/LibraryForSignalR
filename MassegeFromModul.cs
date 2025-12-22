@@ -10,11 +10,13 @@ namespace LibraryForSignalR
     {
         public string ModulName { get; set; }
         public string Message { get; set; }
-        public MassegeFromModul(string ModulName, string Message)
+        public string IDprocces { get; set; }
+        public MassegeFromModul(string ModulName, string Message, string iDprocces)
         {
             this.ModulName = ModulName;
 
             this.Message = Message;
+            IDprocces = iDprocces;
         }
     }
 }

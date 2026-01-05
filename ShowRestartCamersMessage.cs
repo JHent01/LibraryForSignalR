@@ -8,10 +8,10 @@ namespace LibraryForSignalR
 {
     public class ShowRestartCamersMessage
     {
-       public bool CanSendRestartCameraMessage;
+       public bool CanSendRestartCameraMessage { get; set; }
         public ShowRestartCamersMessage( bool canSendRestartCameraMessage)
         {
-            this.CanSendRestartCameraMessage = canSendRestartCameraMessage;
+             CanSendRestartCameraMessage = canSendRestartCameraMessage;
         }
     }
 }
